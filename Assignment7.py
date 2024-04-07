@@ -48,3 +48,5 @@ coefficients = model.coef_[0]
 print('\nStrength of the correlation:')
 for i, col in enumerate(X.columns):
     print(f'{col}: {coefficients[i]:.2f}')
+
+print ("Go Yankees!")
